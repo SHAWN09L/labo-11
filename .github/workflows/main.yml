@@ -16,4 +16,4 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Eslint
-        run: @eslint 
+        run: ./node_modules/.bin/eslint 
