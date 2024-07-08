@@ -16,4 +16,4 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Eslint
-        run: $ git update-index --chmod=+x ./node_modules/.bin/eslint
+        run: update-index --chmod=+x ./node_modules/.bin/eslint
